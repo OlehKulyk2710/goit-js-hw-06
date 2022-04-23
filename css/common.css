@@ -22,3 +22,22 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+
+/* TASK-03 */
+.gallery {
+list-style: none;
+width: 1200px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.gallery__item {
+  padding: 5px;
+}
+
+.gallery__item > img {
+  display: block;
+  max-width: 100%;
+}
